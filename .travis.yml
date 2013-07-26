@@ -1,2 +1,9 @@
 language: ruby
 rvm: 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: N/OGm48648ukvKwfFgMgqriD/mxqIzztNbq8ehtAbnDALkzbMFWbI8UerKGoxmMj5IxUEKCyUw4c+MTmWnMcW806g0oEmWlkvxZmlFa3huzE6K2X9kDwVSRIHx55xTyd98CnM3e+9s3on2B0Nb0Qn04s0Nq+65Cx3yw1rQc/Jt8=
+  app: cryptic-crag-1832
+  on:
+    repo: rkh/cool-app
